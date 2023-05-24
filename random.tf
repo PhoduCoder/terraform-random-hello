@@ -2,6 +2,7 @@ variable "hellos" {
   type = object({
     hello        = string
     second_hello = string
+    third_hello = string
   })
   description = "list of hellos"
 }
